@@ -1,0 +1,67 @@
+body {
+    padding-top: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+}
+
+.container img {
+    margin-top: 20px;
+}
+
+.img-fluid {
+    height: 400px;
+}
+
+ /* Custom styles */
+ .navbar {
+    background-color: #f8f9fa; /* Light gray background */
+    font-size: 18px;
+}
+.navbar-nav .nav-link {
+    color: #333; /* Dark gray font color */
+}
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Blue on hover */
+}
+.jumbotron {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 30px;
+    border-radius: 10px;
+}
+.jumbotron h1 {
+    font-size: 36px;
+    font-family: 'Arial', sans-serif;
+}
+.btn-primary {
+    background-color: #007bff; /* Blue button */
+    border-radius: 5px;
+}
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+footer a {
+    color: #333;
+    margin: 0 10px;
+}
+footer a:hover {
+    color: #007bff;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Indonesia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="image/world-tour.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                Wisata Indonesia
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pulau-padar.html">Pulau Padar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nusa-penida.html">Nusa Penida</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pulau-komodo.html">Pulau Komodo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bromo.html">Bromo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="raja-ampat.html">Raja Ampat</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/bromo.png" class="d-block w-100" alt="Bromo">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/nusapenida.png" class="d-block w-100" alt="Nusa Penida">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/rajaampat.png" class="d-block w-100" alt="Raja Ampat">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="jumbotron mt-4">
+            <h1 class="display-4">Selamat Datang di Wisata Indonesia!</h1>
+            <p class="lead">Temukan keindahan alam dan budaya Indonesia yang memukau.</p>
+            <hr class="my-4">
+            <p>Jelajahi tempat-tempat wisata terbaik di Indonesia.</p>
+            <a class="btn btn-primary btn-lg" href="pulau-padar.html" role="button">Mulai Jelajah</a>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image/pulaupadar.png" class="card-img-top" alt="Pulau Padar">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulau Padar</h5>
+                        <p class="card-text">Keindahan lanskap yang menakjubkan dengan perbukitan yang eksotis.</p>
+                        <a href="pulau-padar.html" class="btn btn-primary">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image/nusapenida.png" class="card-img-top" alt="Nusa Penida">
+                    <div class="card-body">
+                        <h5 class="card-title">Nusa Penida</h5>
+                        <p class="card-text">Pesona pantai dan bawah laut yang menakjubkan.</p>
+                        <a href="nusa-penida.html" class="btn btn-primary">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="image/pulaukomodo.png" class="card-img-top" alt="Pulau Komodo">
+                    <div class="card-body">
+                        <h5 class="card-title">Pulau Komodo</h5>
+                        <p class="card-text">Rumah bagi hewan purba Komodo yang memukau.</p>
+                        <a href="pulau-komodo.html" class="btn btn-primary">Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5 text-center">
+        <p>&copy; 2024 Wisata Indonesia</p>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
